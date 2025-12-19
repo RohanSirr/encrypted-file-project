@@ -26,4 +26,4 @@ for file in files:
     with open(file, "wb") as thefile:
         thefile.write(contents_encrypted)
 
-print("Files encrypted (educational purpose)")
+print("Files encrypted successfully (educational purpose)")
