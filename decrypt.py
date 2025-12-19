@@ -14,6 +14,8 @@ for file in os.listdir():
 
 print(files)
 
+# Simple password based authentication
+
 with open("thekey.key", "rb") as key:
     secretkey = key.read()
 
