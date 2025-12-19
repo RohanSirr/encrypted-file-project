@@ -1,45 +1,41 @@
-🔐 Encrypted File Protection & Recovery System
+# 🔐 Encrypted File Protection & Recovery System
+### *(Educational Project – Linux Only)*
 
-(Educational Project – Linux Only)
+---
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project is an educational simulation of file encryption and decryption using Python and Fernet symmetric cryptography.
-It demonstrates how files can be encrypted and later recovered using a secret key and authentication phrase.
+This project is an **educational simulation** of file encryption and decryption using **Python** and **Fernet symmetric cryptography**.  
+It demonstrates how files inside a directory can be encrypted and later restored using a secret key and authentication phrase.
 
-⚠️ Important Note:
+> ⚠️ **Important Note**
+> - This project is created **strictly for educational purposes only**
+> - It is intended to run **only on Linux-based systems**
+> - Running this project on Windows may trigger antivirus or security software
 
-This project is created strictly for educational and learning purposes.
+---
 
-It is intended to be executed only on Linux-based systems (Ubuntu, Kali Linux, Parrot OS, etc.).
+## 🖥️ Supported Platform
 
-Running this project on Windows may trigger antivirus or security software.
+- ✅ Linux (Ubuntu, Kali Linux, Parrot OS, Debian-based)
+- ❌ Windows (Not supported)
+- ❌ macOS (Not tested)
 
-🖥️ Supported Platform
+---
 
-✅ Linux (Ubuntu / Kali / Parrot / Debian-based)
+## ⚙️ Requirements
 
-❌ Windows (not recommended)
+### Software Requirements
+- **Python 3.x**
+- **pip** (Python package manager)
+- **Git**
+- **Linux Terminal**
 
-❌ macOS (not tested)
-
-⚙️ Requirements
-Software Requirements
-
-Python 3.x
-
-pip (Python package manager)
-
-Git
-
-Linux Terminal
-
-Python Dependency
-
-cryptography library (Fernet)
+### Python Dependency
+- **cryptography** library (Fernet)
 
 Install dependency using:
-
+```bash
 pip3 install cryptography
 
 📂 Project Structure
@@ -49,9 +45,6 @@ encrypted-file-project/
 ├── decrypt.py        # Decrypts files using secret phrase
 ├── README.md         # Project documentation
 ├── .gitignore        # Excludes sensitive files
-
-
-⚠️ The encryption key file (thekey.key) is generated at runtime and is intentionally excluded from GitHub using .gitignore.
 
 🚀 How to Use (Step-by-Step Guide)
 🔹 Step 1: Clone the Repository
@@ -74,7 +67,7 @@ echo "This is test file 2" > file2.txt
 echo "This is test file 3" > file3.txt
 
 
-Check files:
+Verify files:
 
 ls
 
@@ -89,9 +82,9 @@ python3 encrypt.py
 
 Generate an encryption key (thekey.key)
 
-Encrypt all files in the directory except the scripts
+Encrypt all files in the directory except scripts
 
-Make the files unreadable
+Make files unreadable
 
 🔹 Step 4: Run Decryption Script
 
@@ -100,7 +93,7 @@ Execute:
 python3 decrypt.py
 
 
-You will be prompted:
+When prompted:
 
 Enter secret phrase:
 
@@ -110,15 +103,8 @@ Enter:
 coffee
 
 
-✔️ If the phrase is correct:
-
-All files will be decrypted
-
-Original content will be restored
-
-❌ If wrong phrase is entered:
-
-Files will remain encrypted
+✔️ Files will be decrypted successfully if the phrase is correct
+❌ Files will remain encrypted if the phrase is incorrect
 
 🔑 Authentication Details
 
@@ -130,21 +116,21 @@ Demonstrates access control in encryption systems
 
 🛡️ Security & Best Practices
 
-The encryption key file is not pushed to GitHub
+Encryption key file is never pushed to GitHub
 
 .gitignore is used to exclude sensitive runtime files
 
-Designed to work only inside a controlled test directory
+Designed to run only inside a controlled test directory
 
-No system files are modified
+No system or OS files are modified
 
-🧪 Educational Concepts Covered
+🧪 Concepts Covered
 
-File-level encryption & decryption
+File-level encryption and decryption
 
 Symmetric cryptography (Fernet)
 
-Key generation & management
+Key generation and management
 
 Authentication logic
 
@@ -154,10 +140,11 @@ Git & GitHub version control
 
 ⚠️ Disclaimer
 
-This project is intended only for educational and academic purposes.
+This project is intended only for educational and academic use.
 Do not use this project on real user data or production systems.
 The author is not responsible for misuse of this code.
 
 ✅ Conclusion
 
-This project provides hands-on experience with encryption concepts, secure coding practices, and Linux-based execution. It also demonstrates how version control and documentation are handled professionally in real-world software projects.
+This project provides hands-on experience with encryption concepts, secure coding practices, and Linux-based execution.
+It also demonstrates professional documentation and version control practices using Git and GitHub.
