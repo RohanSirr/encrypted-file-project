@@ -51,7 +51,7 @@ encrypted-file-project/
 
 Open terminal and run:
 
-git clone https://github.com/USERNAME/encrypted-file-project.git
+git clone https://github.com/RohanSirr/encrypted-file-project.git
 
 
 Navigate into the project directory:
