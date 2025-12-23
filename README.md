@@ -1,5 +1,5 @@
 # 🔐 Encrypted File Protection & Recovery System
-### *(Educational Project – Linux Only)*
+## *(Educational Project – Linux Only)*
 
 ---
 
@@ -148,3 +148,4 @@ The author is not responsible for misuse of this code.
 
 This project provides hands-on experience with encryption concepts, secure coding practices, and Linux-based execution.
 It also demonstrates professional documentation and version control practices using Git and GitHub.
+
