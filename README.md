@@ -1,4 +1,4 @@
-# 🔐 Encrypted File Protection & Recovery System
+## 🔐 Encrypted File Protection & Recovery System
 ## *(Educational Project – Linux Only)*
 
 ---
